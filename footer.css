@@ -1,0 +1,18 @@
+body footer {
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(30, 31, 73);
+  color: white;
+}
+footer menu {
+  padding: 2em;
+  text-decoration: none;
+}
+menu h3 {
+  text-decoration: underline;
+  padding-bottom: 0.25em;
+}
+menu ul {
+  list-style: none;
+}

@@ -7,6 +7,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
+  align-items: center;
 
   padding: 0.5rem;
   background-color: rgb(57, 60, 174);
@@ -27,6 +28,15 @@ a.first_link {
   border-color: white;
   padding-left: 0.5em;
   padding-right: 0.5em;
+}
+.nav2 a:last-child {
+  border-right: none;
+}
+.nav2 a:nth-child(3) {
+  border: none;
+}
+.short_width {
+  display: none;
 }
 .nav2 img {
   padding-left: 0.5em;
@@ -62,4 +72,14 @@ form input {
   background-color: red;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+}
+
+@media (max-width: 770px) {
+  .nav2_links,
+  nav > img {
+    display: none;
+  }
+  .short_width {
+    display: inline;
+  }
 }
